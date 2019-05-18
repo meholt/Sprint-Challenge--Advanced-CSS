@@ -34,13 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Although both use media queries, a responsive layout detects which device type the site is being viewed on and adjusts appropriately because it is coded with responsive units like rem. Whereas an adaptive site uses server logic to send out the HTML depending on what device it is being viewed upon and the information the server gets back. Responsive layouts tend to take the most amount of time to create.
+
 2. Describe what it means to be mobile first vs desktop first.
 
+A mobile first site is created with it being viewed on a mobile device first. Therefore, its styling will create a design that will be viewed easily on a mobile dvice such as a layout that will usually look like a single column one. Whereas a desktop first design is created with it being viewed first on a desktop, therefore the design and layout will most likely take up more widths than that of a mobile one.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+It makes it so the font size in the body will be 1rem = 10px. This allows the developer to have more control over the font size vs guessing at how big to make it.
 
 4. How would you describe preprocessing to someone new to CSS?
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Some of my favorite concepts in preprocessing are variables and mixins. Both definitely make styling so much easier. Variables make it a lot easier to go through designing a site so that if elements need to be changed down the line a single code just needs to be changed vs having to search whole documents for the places it was used and having to replace them. I seem to have trouble with getting my media queries to do just what I want them to do. It seems to take me some trial and error.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
