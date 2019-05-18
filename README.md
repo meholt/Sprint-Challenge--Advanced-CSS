@@ -46,6 +46,8 @@ It makes it so the font size in the body will be 1rem = 10px. This allows the de
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is styling your site incorporating mixins and variables. It also allows you to nest things while styling them. It is written in a different language such as LESS and is then put through a compiler that than compiles it into vanilla CSS. All of this helps to cut out human error. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 Some of my favorite concepts in preprocessing are variables and mixins. Both definitely make styling so much easier. Variables make it a lot easier to go through designing a site so that if elements need to be changed down the line a single code just needs to be changed vs having to search whole documents for the places it was used and having to replace them. I seem to have trouble with getting my media queries to do just what I want them to do. It seems to take me some trial and error.
