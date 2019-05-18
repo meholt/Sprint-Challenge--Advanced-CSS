@@ -63,10 +63,10 @@
         margin-bottom: 26px;
       }
 
-      .btn {
-        width: 30%;
+      .btn(@button-width: 50%; @btn-color: black) {
+        width: @button-width;
         background-color: @btn-bg-color;
-        color: @porcelain;
+        color: @btn-color;
         text-align: center;
         padding: 10px 15px;
         border-radius: 5px;

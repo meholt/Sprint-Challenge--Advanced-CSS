@@ -50,7 +50,7 @@ Preprocessing is styling your site incorporating mixins and variables. It also a
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-Some of my favorite concepts in preprocessing are variables and mixins. Both definitely make styling so much easier. Variables make it a lot easier to go through designing a site so that if elements need to be changed down the line a single code just needs to be changed vs having to search whole documents for the places it was used and having to replace them. I seem to have trouble with getting my media queries to do just what I want them to do. It seems to take me some trial and error.
+Some of my favorite concepts in preprocessing are variables and mixins. Both definitely make styling so much easier. Variables make it a lot easier to go through designing a site so that if elements need to be changed down the line a single code just needs to be changed vs having to search whole documents for the places it was used and having to replace them. I seem to have trouble with getting my media queries to do just what I want them to do. It seems to take me some trial and error. I could also use a bit more practice with parametric mixins.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
