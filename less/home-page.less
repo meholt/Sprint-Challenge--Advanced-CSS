@@ -24,7 +24,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    
+    .sky, .launch {
+      @media @phone {
+        display: none;
+      }
+    }
 
+    }
+    
     img {
       width: 28%;
       margin: 20px 2.5%;
@@ -49,8 +57,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .center;
 
     .walk-text {
       width: 50%;
@@ -66,8 +73,14 @@
       .btn {
         color: @btn-color;
         .button(@btn-bg-color, 5px);
+        &:hover {
+          background: @btn-color;
+          color: @btn-bg-color;
+        }
+        }
+
       }
-    }
+
 
  
 
@@ -80,6 +93,7 @@
         height: auto;
         border-radius: 10px;
       }
+
     }
   }
 }// home
